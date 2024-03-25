@@ -2,7 +2,7 @@
 
 ## About the Project
 
-This project is a simple price checker for a few items at a local grocery store. It loops through an array of product items, parses the HTML using Beautiful Soup, and prints the item's price along with any available coupons.
+This project is a simple price checker for a few items at a local grocery store. It loops through an array of products, parses the HTML using Beautiful Soup, and prints the item's price along with any available coupons.
 
 <div align="right"
 
@@ -41,7 +41,9 @@ This project is a simple price checker for a few items at a local grocery store.
 
 ## Installation
 
-1. Clone the repo
+1. Clone the repo using:
+
+        https://github.com/theqae/price-checker.git
 2. Run using:
 
         python3 price-checker.py
