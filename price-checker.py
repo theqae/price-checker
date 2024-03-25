@@ -15,7 +15,9 @@ urls = [
     "https://www.harristeeter.com/p/newman-s-own-four-cheese-thin-crust-frozen-pizza/0002066200600",
     "https://www.harristeeter.com/p/california-pizza-kitchen-marherita-crispy-thin-crust-frozen-pizza/0007192129053",
     "https://www.harristeeter.com/p/ben-jerry-s-chocolate-fudge-brownie-ice-cream-pint/0007684010047",
-    "https://www.harristeeter.com/p/de-waflebakkers-chocolate-chip-pancakes/0067984410465"
+    "https://www.harristeeter.com/p/de-waflebakkers-chocolate-chip-pancakes/0067984410465",
+    "https://www.harristeeter.com/p/liquid-iv-sugar-free-lemon-lime-hydration-multiplier-electrolyte-drink-mix/0085003928666",
+    "https://www.harristeeter.com/p/drip-drop-electrolyte-powdered-drink-mix-packets-variety-pack/0085001832879"
 ]
 
 # Set up the Selenium Chrome driver
