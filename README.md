@@ -1,4 +1,8 @@
+<div align="center">
+
 # Price Checker
+
+</div>
 
 ## About the Project
 
@@ -6,7 +10,7 @@ This project is a simple price checker for a few items at a local grocery store.
 
 <div align="right"
 
-[Back to Top](#Price-Checker)
+[Back to Top](#price-checker)
 
 </div>
 
@@ -18,7 +22,7 @@ This project is a simple price checker for a few items at a local grocery store.
 
 <div align="right"
 
-[Back to Top](#Price-Checker)
+[Back to Top](#price-checker)
 
 </div>
 
@@ -35,7 +39,7 @@ This project is a simple price checker for a few items at a local grocery store.
 
 <div align="right"
 
-[Back to Top](#Price-Checker)
+[Back to Top](#price-checker)
 
 </div>
 
@@ -50,7 +54,7 @@ This project is a simple price checker for a few items at a local grocery store.
 
 <div align="right"
 
-[Back to Top](#Price-Checker)
+[Back to Top](#price-checker)
 
 </div>
 
@@ -64,6 +68,6 @@ This project is a simple price checker for a few items at a local grocery store.
 
 <div align="right"
 
-[Back to Top](#Price-Checker)
+[Back to Top](#price-checker)
 
 </div>
