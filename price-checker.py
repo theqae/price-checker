@@ -32,7 +32,7 @@ for url in urls:
 
     # Wait for the page to fully load
     wait = WebDriverWait(driver, 10)
-    webPriceElement = wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR, '[data-qa="cart-page-item-unit-price"]')))
+    itemPrice = wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR, '[data-qa="cart-page-item-price"]')))
 
     # Get the page source
     pageSource = driver.page_source
@@ -42,21 +42,25 @@ for url in urls:
 
     # Parse the HTML content of the webpage
     soup = BeautifulSoup(pageSource, 'html.parser')
+    # breakpoint()
+    # Extract item name
+    itemName = soup.find(attrs={'data-testid': 'product-details-name'})
+    itemNameValue = itemName.text.strip()
 
     # Extract unit price if present
-    unitPriceElement = soup.find(attrs={'data-qa': 'cart-page-item-unit-price'})
+    unitPriceElement = soup.find(attrs={'data-qa': 'cart-page-item-price'})
     unitPriceValue = unitPriceElement.text.strip() if unitPriceElement else "Unit price not found"
 
    # Extract coupon information if present
     savingsCenterRow = soup.find('div', {'data-qa': 'savings-center-row-other-coupon'})
     if savingsCenterRow:
         couponTextSpan = savingsCenterRow.find('span', class_='kds-Text--s text-primary ml-8 -mt-1')
-        couponInfo = couponTextSpan.text.strip() if couponTextSpan else "Coupon not found"
+        couponInfo = couponTextSpan.text.strip()
     else:
         couponInfo = "Coupon not found"
 
     # Print results
-    print("URL:", url)
-    print("Unit Price:", unitPriceValue)
+    print("Product:", itemNameValue)
+    print("Item Price:", unitPriceValue)
     print("Coupon:", couponInfo)
     print()
